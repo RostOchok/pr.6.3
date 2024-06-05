@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання для самостійного виконання</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Запитання: скільки буде 5+2?</h1>
+        <form id="quizForm">
+            <table>
+                <tr>
+                    <th>Перемикачі</th>
+                   
+                </tr>
+                <tr>
+                    <td><input type="radio" name="answer" value="6"> 6</td>
+                   
+                </tr>
+                <tr>
+                    <td><input type="radio" name="answer" value="7"> 7</td>
+                  
+                </tr>
+                <tr>
+                    <td><input type="radio" name="answer" value="8"> 8</td>
+                  
+                </tr>
+            </table>
+            <button type="button" onclick="checkAnswer()">Перевірка рішення</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
